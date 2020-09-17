@@ -30,4 +30,12 @@ def tomato():
     return render_template("tomato2.html", myfood=food_name)
 
 
+@app.route("/test_action")
+def test_action():
+    username = request.args.get("un")
+    # disert = request.args.get("di")
+    # return render_template("favorite_desert.html", uname=username, dish=disert)
+    return render_template("favorite_desert.html", uname=username)
+
+
 app.run(host="localhost")
