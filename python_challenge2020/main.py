@@ -1,5 +1,8 @@
 from flask import Flask, render_template, request, redirect
 
+from python_challenge2020.find_job_so import get_jobs
+
+db = {}
 app = Flask("SuperScraper")
 
 
@@ -31,7 +34,15 @@ def report():
         word_to_find = word_to_find.lower()
     else:
         return redirect("/")
-    return render_template("report2.html", word_to_find=word_to_find)
+    
+    fake_db = db.get(word_to_find)
+    if fake_db:
+        jobs_list = fake_db
+    else:
+        jobs_list = get_jobs(word_to_find)
+        db[word_to_find] = jobs_list
+    # print(jobs_list)
+    return render_template("report2.html", word_to_find=word_to_find, jobs=jobs_list)
     # print(request.args)
     # username, disert = request.args
     # username = request.args.get("un")

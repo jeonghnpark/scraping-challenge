@@ -1,0 +1,9 @@
+        section {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          background-color: red;
+        }
+
+        div .test{
+            background-color: red;
+        }

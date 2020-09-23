@@ -3,10 +3,30 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Title</title>
+    <style>
+      section {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+    </style>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
 <h1>Search Results</h1>
 <h3>you are looking for a word {{word_to_find}}</h3>
 
+<section>
+    <h4>Company</h4>
+    <h4>Position</h4>
+    <h4>Location</h4>
+    <h4>Apply</h4>
+    {% for job in jobs %}
+    <span>{{job.name}}</span>
+    <span> {{job.job_position}}</span>
+    <span>{{job.location}}</span>
+    <span>{{job.link_url}}</span>
+    {% endfor%}
+</section>
 </body>
 </html>

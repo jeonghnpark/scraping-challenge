@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
+  <head>
+    <meta charset="UTF-8" />
     <title>Title</title>
-</head>
-<body>
-<h1>Job search</h1>
-<!--<form action="/report" method="get">-->
-<!--    <input placeholder="Enter search word" required name="word"/>-->
-<!--    <button>Search</button>-->
-<!--</form>-->
+    <link rel="stylesheet" href="contact.css" />
+    <style>
+      .job_query {
+        /* background-color: tomato; */
+        display: flex;
+        height: 30px;
+      }
 
-<form action="/kimchi" method="get">
-    <input placeholder="What job do want to find?? " required name="word"/>
-    <button>Search</button>
-</form>
+      .job_query button {
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Job search</h1>
+    <!--<form action="/report" method="get">-->
+    <!--    <input placeholder="Enter search word" required name="word"/>-->
+    <!--    <button>Search</button>-->
+    <!--</form>-->
 
-<form action="/tomato" method="get">
-    <!--    <input type="text" required name="tomato2">-->
-    <input type="tomato text" required name="food"/>
-</form>
+    <form action="/report" method="get" class="job_query">
+      <input placeholder="What job do want to find?? " required name="word" />
+      <button>Search</button>
+    </form>
 
-<form action="/report" method="get">
-    <input type="text" name="word" placeholder="word to find"/>
-    <!--    <input type="text" name="di" placeholder="favorite dish">-->
-</form>
-</body>
+    <!--<form action="/tomato" method="get">-->
+    <!--    &lt;!&ndash;    <input type="text" required name="tomato2">&ndash;&gt;-->
+    <!--    <input type="tomato text" required name="food"/>-->
+    <!--</form>-->
+
+    <!--<form action="/report" method="get">-->
+    <!--    <input type="text" name="word" placeholder="word to find"/>-->
+    <!--    &lt;!&ndash;    <input type="text" name="di" placeholder="favorite dish">&ndash;&gt;-->
+    <!--</form>-->
+  </body>
 </html>
