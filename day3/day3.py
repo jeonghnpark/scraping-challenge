@@ -10,80 +10,84 @@ All this functions should check for errors, follow the comments to see all cases
 There should be NO ERRORS from Python in the console.
 """
 
+
 def add_to_dict(my_english_dict, key="", value=""):
-    if(isinstance(my_english_dict, dict)==False):
+    if (isinstance(my_english_dict, dict) == False):
         print(f"You need to send a dictionary. You sent:{type(my_english_dict)}")
-        return
-    if(value=="" or key==""):
+
+    elif (value == "" or key == ""):
         print(f"You need to send a word and a definition")
-        return
-    if(key in my_english_dict):
-        print(f"{key} is already on the dictionary. Won't add.")
-        return
-    my_english_dict[key]=value
-    print(f"{key} has been added")
+
+    else:
+        if (key in my_english_dict):
+            print(f"{key} is already on the dictionary. Won't add.")
+        else:
+            my_english_dict[key] = value
+        print(f"{key} has been added")
+
 
 def add_to_dict_nico(a_dict, word="", definition=""):
     if type(a_dict) is not dict:
         print("You need to send a dict. You sent :", type(a_dict))
-    elif word=="" or definition =="":
+    elif word == "" or definition == "":
         print("fill word or definition")
     else:
         if word in a_dict:
             print(f"{word} is already on the dicionalry")
         else:
-            a_dict[word]=definition
+            a_dict[word] = definition
             print(word, " has been added")
 
 
 def get_from_dict(my_english_dict, key=""):
-    if(isinstance(my_english_dict, dict)==False):
+    if (isinstance(my_english_dict, dict) == False):
         print(f"You need to send a dictionary. You sent:{type(my_english_dict)}")
-        return
-    if(key==""):
-        print(f"You need to send a word to search for")
-        return
-    if(key not in my_english_dict):
-        print(f"{key} was not found in this dict.")
-        return
 
-    print(f"{key}:{my_english_dict[key]}")
+    elif (key == ""):
+        print(f"You need to send a word to search for")
+
+    else:
+        if (key not in my_english_dict):
+            print(f"{key} was not found in this dict.")
+        else:
+            print(f"{key}:{my_english_dict[key]}")
+
 
 def update_word(my_english_dict, key="", value=""):
-    if(isinstance(my_english_dict, dict)==False):
+    if (isinstance(my_english_dict, dict) == False):
         print(f"You need to send a dictionary. You sent:{type(my_english_dict)}")
-        return
-    if(value=="" or key==""):
+
+    elif (value == "" or key == ""):
         print(f"You need to send a word and a definition")
-        return
-    if(key in my_english_dict):
-        my_english_dict[key]=value
-        print(f"{key} has been updated to:{my_english_dict[key]}")
-        return
-    if(key not in my_english_dict):
-        print(f"{key} is not on the dict. Can't update non-existing word.")
-        return
+
+    else:
+        if (key in my_english_dict):
+            my_english_dict[key] = value
+            print(f"{key} has been updated to:{my_english_dict[key]}")
+        else:
+            print(f"{key} is not on the dict. Can't update non-existing word.")
+
 
 def delete_from_dict(my_english_dict, key=""):
-    if(isinstance(my_english_dict, dict)==False):
+    if (isinstance(my_english_dict, dict) == False):
         print(f"You need to send a dictionary. You sent:{type(my_english_dict)}")
-        return
-    if(key==""):
+
+    elif (key == ""):
         print(f"You need to specify a word to delete")
-        return
-    if(key in my_english_dict):
-        del my_english_dict[key]
-        print(f"{key} has been deleted.")
-        return
-    if(key not in my_english_dict):
-        print(f"{key} is not on the dict. Won't delete")
-        return
+
+    else:
+        if (key in my_english_dict):
+            del my_english_dict[key]
+            print(f"{key} has been deleted.")
+        else:
+            print(f"{key} is not on the dict. Won't delete")
+
 
 # \/\/\/\/\/\/\ DO NOT TOUCH  \/\/\/\/\/\/\
 
 import os
-os.system('clear')
 
+os.system('clear')
 
 my_english_dict = {}
 
@@ -104,7 +108,6 @@ add_to_dict(my_english_dict, "kimchi", "The source of life.")
 # Should not work. kimchi is already on the dict
 print('\nadd_to_dict(my_english_dict, "kimchi", "My fav. food"):')
 add_to_dict(my_english_dict, "kimchi", "My fav. food")
-
 
 print("\n\n###### get_from_dict ######\n")
 
@@ -146,7 +149,6 @@ update_word(my_english_dict, "kimchi", "Food from the gods.")
 print('\nget_from_dict(my_english_dict, "kimchi"):')
 get_from_dict(my_english_dict, "kimchi")
 
-
 print("\n\n###### delete_from_dict ######\n")
 
 # Should not work. First argument should be a dict.
@@ -169,4 +171,4 @@ delete_from_dict(my_english_dict, "kimchi")
 print('\nget_from_dict(my_english_dict, "kimchi"):')
 get_from_dict(my_english_dict, "kimchi")
 
-# \/\/\/\/\/\/\ END DO NOT TOUCH  \/\/\/\/\/\/\
+# \/\/\/\/\/\/\ END DO NOT TOUCH  \/\/\/\/\/\/

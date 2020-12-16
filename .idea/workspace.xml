@@ -1,85 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1dfce46-ac7c-470c-a2a4-8e42dd2de70e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python_challenge2020/templates/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_challenge2020/templates/styles.css" afterDir="false" />
+    <list default="true" id="6d13fafa-2527-4e4c-aadb-1f5f7d811f37" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/jh700.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/saveactions_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scraping-challenge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scraping-challenge.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_challenge2020/find_job_so.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_challenge2020/find_job_so.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_challenge2020/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_challenge2020/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_challenge2020/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/python_challenge2020/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_challenge2020/templates/report2.html" beforeDir="false" afterPath="$PROJECT_DIR$/python_challenge2020/templates/report2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day3/day3.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/day3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="Python Script" />
-      </list>
-    </option>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day3/day3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-152">
+              <caret line="71" selection-start-line="71" selection-end-line="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1gev6mKW0bw9ngb34e4ggbKa39Y" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
-  </component>
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <console-settings custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])" module-name="scraping-challenge" is-module-sdk="true">
-        <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])" />
-        <option name="myUseModuleSdk" value="true" />
-        <option name="myModuleName" value="scraping-challenge" />
-      </console-settings>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/day3/day3.py" />
+      </list>
     </option>
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\dev\python\scraping-challenge\python_challenge2020\templates" />
-    </key>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="classexam" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="scraping-challenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scraping-challenge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scraping-challenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scraping-challenge" type="462c0819:PsiDirectoryNode" />
+              <item name="day3" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="day3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="scraping-challenge" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,92 +97,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/classexam.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="draft" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="scraping-challenge" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day7/draft.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="find_job_so" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="scraping-challenge" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_challenge2020" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_challenge2020/find_job_so.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="scraping-challenge" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_challenge2020" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_challenge2020/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main_temp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="scraping-challenge" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_challenge2020" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_challenge2020/main_temp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day3/day3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,146 +112,53 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.find_job_so" />
-        <item itemvalue="Python.find_job_so" />
-        <item itemvalue="Python.main_temp" />
-        <item itemvalue="Python.classexam" />
+        <item itemvalue="Python.day3" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b1dfce46-ac7c-470c-a2a4-8e42dd2de70e" name="Default Changelist" comment="" />
-      <created>1598487699520</created>
+      <changelist id="6d13fafa-2527-4e4c-aadb-1f5f7d811f37" name="Default Changelist" comment="" />
+      <created>1608089979215</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1598487699520</updated>
+      <updated>1608089979215</updated>
     </task>
-    <task id="LOCAL-00001" summary="name_local">
-      <created>1600827688121</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1600827688121</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12118019" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32369298" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
   </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/python_challenge2020" />
-    </ignored-roots>
-    <MESSAGE value="name_local" />
-    <option name="LAST_COMMIT_MESSAGE" value="name_local" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="753" y="163" key="#Inspections" timestamp="1599011952209">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="753" y="163" key="#Inspections/0.0.1680.1010@0.0.1680.1010" timestamp="1599011952209" />
-    <state x="700" y="163" key="#Notifications" timestamp="1600763890645">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="700" y="163" key="#Notifications/0.0.1680.1010@0.0.1680.1010" timestamp="1600763890645" />
-    <state x="829" y="381" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1598934673069">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="829" y="381" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1598934673069" />
-    <state x="635" y="63" key="CommitChangelistDialog2" timestamp="1600827686743">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="635" y="63" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1600827686743" />
-    <state x="846" y="253" key="FileChooserDialogImpl" timestamp="1600845881899">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="846" y="253" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1600845881899" />
-    <state width="954" height="242" key="GridCell.Tab.0.bottom" timestamp="1600859133747">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state width="954" height="242" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1600859133747" />
-    <state width="954" height="242" key="GridCell.Tab.0.center" timestamp="1600859133747">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state width="954" height="242" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1600859133747" />
-    <state width="954" height="242" key="GridCell.Tab.0.left" timestamp="1600859133747">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state width="954" height="242" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1600859133747" />
-    <state width="954" height="242" key="GridCell.Tab.0.right" timestamp="1600859133747">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state width="954" height="242" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1600859133747" />
-    <state width="954" height="266" key="GridCell.Tab.1.bottom" timestamp="1600856737512">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state width="954" height="266" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1600856737512" />
-    <state width="954" height="266" key="GridCell.Tab.1.center" timestamp="1600856737512">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state width="954" height="266" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1600856737512" />
-    <state width="954" height="266" key="GridCell.Tab.1.left" timestamp="1600856737512">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state width="954" height="266" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1600856737512" />
-    <state width="954" height="266" key="GridCell.Tab.1.right" timestamp="1600856737512">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state width="954" height="266" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1600856737512" />
-    <state x="301" y="263" width="1127" height="731" key="SettingsEditor" timestamp="1600834110143">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="301" y="263" width="1127" height="731" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1600834110143" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1598502989104">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1680.1010@0.0.1680.1010" timestamp="1598502989104" />
-    <state x="700" y="237" key="Vcs.Push.Dialog.v2" timestamp="1600827697026">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="700" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1600827697026" />
-    <state x="442" y="173" width="958" height="810" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600828197604">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="442" y="173" width="958" height="810" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1600828197604" />
-    <state x="658" y="351" key="com.intellij.ide.util.TipDialog" timestamp="1600763979501">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="658" y="351" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1600763979501" />
-    <state x="833" y="0" width="854" height="1017" key="dock-window-1" timestamp="1600831720670">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="833" y="0" width="854" height="1017" key="dock-window-1/0.0.1680.1010@0.0.1680.1010" timestamp="1600831720670" />
-    <state x="899" y="237" width="700" height="533" key="recent.locations.popup" timestamp="1598502971731">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="899" y="237" width="700" height="533" key="recent.locations.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1598502971731" />
-    <state x="923" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1600858839644">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="923" y="221" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1600858839644" />
-  </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="cur_list" language="Python" />
-      </configuration>
-    </watches-manager>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/day3/day3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="71" selection-start-line="71" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
