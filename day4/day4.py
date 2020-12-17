@@ -1,13 +1,9 @@
 import requests
-import os
-import numpy as np
 
 q_continue=True
 
 def cleanUrls(urls):
-    urls = [x for y in [x.split(',') for x in urls.strip().split(' ')] for x in y]
-    while ("" in urls):
-        urls.remove("")
+    urls = [y.strip() for y in urls.strip().split(',')]
     for i,url in enumerate(urls):
         if(url[:4]!="http"):
             urls[i]="http://"+url
@@ -35,7 +31,7 @@ while(q_continue==True):
 
     for url in urls:
         if('.' not in url):
-            print("invalid url ! ")
+            print("invalid url!")
             continue
         if(checkUrl(url)):
             print(f"{url} is good")
