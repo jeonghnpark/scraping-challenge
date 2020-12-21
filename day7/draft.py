@@ -1,4 +1,5 @@
 import csv
+import os
 
 import requests
 from bs4 import BeautifulSoup
@@ -7,18 +8,28 @@ alba_url = "http://www.alba.co.kr/"
 
 
 def save_csv(url="", name=""):
+    name = name.replace('/', '')
+    if name == "당신의집사":
+        i = 1
+
+    # script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
+    #
+    # rel_path = "save/"+name + '.csv'
+    # abs_file_path = os.path.join(script_dir, rel_path)
+    # print(abs_file_path)
+
     file_name = name + '.csv'
     file = open(file_name, mode="w", encoding="utf-8")
     writer = csv.writer(file)
     writer.writerow(['title', 'location', 'work_time', 'payment', 'regDate'])
 
-    print(url)
-    print(name)
+    # print(url)
+    # print(name)
     r = requests.get(url)
     soup = BeautifulSoup(r.text, 'html.parser')
     lists = soup.find('div', {"class": "goodsList"})
     table = lists.find('tbody')
-    jobs = table.find_all("tr", {"class": ""})
+    jobs = table.find_all("tr", {"class": ["divide", ""]})
     # trs=table.find_all("tr")
     # result = [tr for tr in trs if 'summaryView' not in tr['class']]
     # print(jobs[:1])
@@ -64,17 +75,20 @@ superBrand = html.find(id='MainSuperBrand')
 brandList = superBrand.find('ul', {"class": "goodsBox"})
 brands = brandList.find_all('li')
 
-for i, brand in enumerate(brands[:2]):
+for i, brand in enumerate(brands[:]):
     # print(i)
     # company_name=brand.find('span', {"class":"company"})
     # company_link = brand.find('a', {"class": "goodsBox-info"})['href']
     # company_link=brand.find('a')['href']
     company_link = brand.find('a')
     company_link_url = company_link['href']
-    company_name = company_link.find('span', {"class": "company"})
-    if company_name:
-        company_name = company_name.text
-        # save_csv(company_link_url, company_name)
+    try:
+        company_name = company_link.find('span', {"class": "company"}).text
+        save_csv(company_link_url, company_name)
+    except:
+        pass
+    # company_name = company_name.strip('/')
+    # save_csv(company_link_url, company_name)
     # company_name_text=company_name.text
     # print(company_link)
     # print(company_link_url)
@@ -84,5 +98,6 @@ for i, brand in enumerate(brands[:2]):
     # print(company_name.text)
     # print(brand.find('a'))
     # save_csv(company_link_url, company_name)
-    save_csv("http://redcappizza.alba.co.kr/job/brand/", company_name)
+    # if company_link_url.string:
+    # save_csv("http://redcappizza.alba.co.kr/job/brand/", company_name)
 # print(brandList)
