@@ -1,19 +1,21 @@
 import requests
 
-q_continue=True
+q_continue = True
+
 
 def cleanUrls(urls):
     urls = [y.strip() for y in urls.strip().split(',')]
-    for i,url in enumerate(urls):
-        if(url[:4]!="http"):
-            urls[i]="http://"+url
+    for i, url in enumerate(urls):
+        if (url[:4] != "http"):
+            urls[i] = "http://" + url
     return urls
+
 
 def checkUrl(url):
     # try:
     try:
-        html=requests.get(url)
-        rs=html.raise_for_status()
+        html = requests.get(url)
+        rs = html.raise_for_status()
         if rs is None:
             return True
         else:
@@ -22,32 +24,32 @@ def checkUrl(url):
     except requests.exceptions.RequestException as e:
         return False
 
-while(q_continue==True):
+
+while (q_continue == True):
     # os.system('cls')
     print("Welcome to InItDown.py!")
     print("Please write a URL or URLs you want to check. (separated by comma)")
-    urls=input()
-    urls=cleanUrls(urls)
+    urls = input()
+    urls = cleanUrls(urls)
 
     for url in urls:
-        if('.' not in url):
+        if ('.' not in url):
             print("invalid url!")
             continue
-        if(checkUrl(url)):
+        if (checkUrl(url)):
             print(f"{url} is good")
         else:
             print(f"{url} is down")
 
-    y_or_no=""
-    while (1) :
-        y_or_no=input('Do you want to start over? (y/n)   ')
-        if(y_or_no=='y'):
-            q_continue=True
+    y_or_no = ""
+    while (1):
+        y_or_no = input('Do you want to start over? (y/n)   ')
+        if (y_or_no == 'y'):
+            q_continue = True
             break
-        elif(y_or_no=='n'):
+        elif (y_or_no == 'n'):
             print('ok. bye')
-            q_continue=False
+            q_continue = False
             break
         else:
             print("invalid answer ! ")
-

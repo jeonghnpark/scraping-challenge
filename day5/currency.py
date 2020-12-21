@@ -9,10 +9,10 @@ url = "https://www.iban.com/currency-codes"
 def main():
     # url = "https://www.iban.com/currency-codes"
     # url = "https://www.iban.com/currodes"
-    global request
+    # global request
     try:
-        request = requests.get(url)
-        if request.status_code == 200:
+        html = requests.get(url)
+        if html.status_code == 200:
             # print(url, "is up!")
             # print("Hello, Select a country number: ")
             pass
@@ -23,7 +23,7 @@ def main():
         print(url, "is down!")
         # sys.exit()
 
-    html = request.text
+    html = html.text
     soup = BeautifulSoup(html, 'html.parser')
     trs = soup.find_all('tr')
     trs = trs[1:]
@@ -46,7 +46,7 @@ def main():
             print("That was not a number")
             continue
 
-        if num > len(cur_list) - 1:
+        if num > len(cur_list) - 1 or num < 0:
             print("Choose a number from the list ")
             continue
         else:
