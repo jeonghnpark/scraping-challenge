@@ -19,14 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d13fafa-2527-4e4c-aadb-1f5f7d811f37" name="Default Changelist" comment="day3_1">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scraping-challenge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scraping-challenge.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="6d13fafa-2527-4e4c-aadb-1f5f7d811f37" name="Default Changelist" comment="gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day4/day4.py" beforeDir="false" afterPath="$PROJECT_DIR$/day4/day4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5/currency.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/currency.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/(주)후니에프앤비.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/KFC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/day7/draft.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/㈜호텔신라.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/백종원의 더본코리아 직,가맹점.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/빨간모자피자.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/슈마커.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/써브웨이.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/아웃백.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/째깍악어.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/한솔교육.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/홍익아트.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +64,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Python.day4">
+  <component name="RunManager" selected="Python.draft">
     <configuration name="day3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="scraping-challenge" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,6 +109,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="draft" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="scraping-challenge" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day7/draft.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="newfile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="scraping-challenge" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,6 +153,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.draft" />
         <item itemvalue="Python.day4" />
         <item itemvalue="Python.newfile" />
         <item itemvalue="Python.day3" />
@@ -172,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608137852745</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="gitignore">
+      <created>1608538048093</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608538048093</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,12 +225,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day3" />
     <MESSAGE value="day3_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="day3_1" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1175" y="298" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608537867209">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="1175" y="298" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1608537867209" />
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
   </component>
 </project>

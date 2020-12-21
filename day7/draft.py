@@ -3,12 +3,7 @@ import csv
 import requests
 from bs4 import BeautifulSoup
 
-main_url = "http://www.alba.co.kr/"
-r = requests.get(main_url)
-html = BeautifulSoup(r.text, 'html.parser')
-superBrand = html.find(id='MainSuperBrand')
-brandList = superBrand.find('ul', {"class": "goodsBox"})
-brands = brandList.find_all('li')
+alba_url = "http://www.alba.co.kr/"
 
 
 def save_csv(url="", name=""):
@@ -26,7 +21,6 @@ def save_csv(url="", name=""):
     jobs = table.find_all("tr", {"class": ""})
     # trs=table.find_all("tr")
     # result = [tr for tr in trs if 'summaryView' not in tr['class']]
-
     # print(jobs[:1])
 
     job_list = []
@@ -52,7 +46,6 @@ def save_csv(url="", name=""):
             writer.writerow('No available jobs')
 
     file.close()
-
     #
     # for job in jobs[:2]:
     #     print(job)
@@ -65,21 +58,29 @@ def save_csv(url="", name=""):
     #     print(job_detail[3].find('span', {"class": 'number'}).text)
 
 
-for i, brand in enumerate(brands[:1]):
+r = requests.get(alba_url)
+html = BeautifulSoup(r.text, 'html.parser')
+superBrand = html.find(id='MainSuperBrand')
+brandList = superBrand.find('ul', {"class": "goodsBox"})
+brands = brandList.find_all('li')
+
+for i, brand in enumerate(brands[:2]):
     # print(i)
     # company_name=brand.find('span', {"class":"company"})
     # company_link = brand.find('a', {"class": "goodsBox-info"})['href']
-
     # company_link=brand.find('a')['href']
     company_link = brand.find('a')
     company_link_url = company_link['href']
-    company_name = company_link.find('span', {"class": "company"}).text
+    company_name = company_link.find('span', {"class": "company"})
+    if company_name:
+        company_name = company_name.text
+        # save_csv(company_link_url, company_name)
     # company_name_text=company_name.text
     # print(company_link)
     # print(company_link_url)
     # print(company_name_text)
     # print(company_link['href'])
-    # print(company_name)
+    print(company_name)
     # print(company_name.text)
     # print(brand.find('a'))
     # save_csv(company_link_url, company_name)
